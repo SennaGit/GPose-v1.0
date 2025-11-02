@@ -1,0 +1,1221 @@
+2025-10-27 13:57:37,493 - INFO - 开始GPose v1.0打包流程...
+2025-10-27 13:57:37,494 - INFO - 步骤1/5: 检查打包环境...
+2025-10-27 13:57:37,494 - INFO - Python版本: 3.11.1
+2025-10-27 13:57:38,090 - INFO - PyInstaller版本: 6.16.0
+2025-10-27 13:57:38,091 - INFO - ✓ 环境检查通过
+2025-10-27 13:57:38,096 - INFO - 步骤2/5: 使用PyInstaller构建EXE...
+2025-10-27 13:57:38,096 - INFO - 这可能需要5-10分钟，请耐心等待...
+2025-10-27 13:57:38,096 - INFO - 清理旧的dist目录...
+2025-10-27 13:57:38,097 - INFO - 清理旧的build目录...
+2025-10-27 13:57:38,098 - INFO - 执行命令: C:\Users\18321\AppData\Local\Programs\Python\Python311\python.exe -m PyInstaller --clean --noconfirm GPose.spec
+2025-10-27 14:11:34,936 - ERROR - PyInstaller构建失败
+2025-10-27 14:11:34,936 - ERROR - 
+2025-10-27 14:11:34,938 - ERROR - 325 INFO: PyInstaller: 6.16.0, contrib hooks: 2025.9
+325 INFO: Python: 3.11.1
+358 INFO: Platform: Windows-10-10.0.26100-SP0
+358 INFO: Python environment: C:\Users\18321\AppData\Local\Programs\Python\Python311
+361 INFO: Removing temporary files and cleaning cache in C:\Users\18321\AppData\Local\pyinstaller
+363 INFO: Module search paths (PYTHONPATH):
+['D:\\G-Pose_V1.0',
+ 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip',
+ 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib',
+ 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\DLLs',
+ 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311',
+ 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages',
+ 'D:\\G-Pose_V1.0']
+992 INFO: Appending 'datas' from .spec
+995 INFO: checking Analysis
+995 INFO: Building Analysis because Analysis-00.toc is non existent
+995 INFO: Looking for Python shared library...
+995 INFO: Using Python shared library: C:\Users\18321\AppData\Local\Programs\Python\Python311\python311.dll
+995 INFO: Running Analysis Analysis-00.toc
+995 INFO: Target bytecode optimization level: 0
+995 INFO: Initializing module dependency graph...
+996 INFO: Initializing module graph hook caches...
+1014 INFO: Analyzing modules for base_library.zip ...
+2783 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+2853 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+4321 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+5554 INFO: Caching module dependency graph...
+5591 INFO: Analyzing D:\G-Pose_V1.0\run_gpose.py
+5696 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+5824 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+6043 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+6509 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+6611 INFO: Processing pre-safe-import-module hook 'hook-tensorflow.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+6632 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+6918 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+7908 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+8479 INFO: Processing standard module hook 'hook-psutil.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9104 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+9105 INFO: SetuptoolsInfo: initializing cached setuptools info...
+10236 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+10938 INFO: Processing standard module hook 'hook-cv2.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11782 INFO: Processing standard module hook 'hook-matplotlib.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+12151 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12233 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12433 INFO: Processing standard module hook 'hook-matplotlib.backend_bases.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+12551 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+12625 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+13288 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+13423 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+14066 INFO: Processing standard module hook 'hook-jinja2.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14576 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+14645 INFO: Processing standard module hook 'hook-matplotlib.pyplot.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+15625 INFO: Processing standard module hook 'hook-dateutil.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+15705 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+17095 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17445 INFO: Processing standard module hook 'hook-sounddevice.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17856 INFO: Processing standard module hook 'hook-PyQt6.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+18551 INFO: Processing standard module hook 'hook-PyQt6.QtWidgets.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+19166 INFO: Processing standard module hook 'hook-PyQt6.QtCore.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+19955 INFO: Processing standard module hook 'hook-PyQt6.QtGui.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+20447 INFO: Processing standard module hook 'hook-PyQt6.QtMultimedia.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+20797 INFO: Processing standard module hook 'hook-PyQt6.QtNetwork.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+21132 INFO: Processing standard module hook 'hook-PyQt6.QtMultimediaWidgets.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+21285 INFO: Processing standard module hook 'hook-scipy.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+22257 INFO: Processing standard module hook 'hook-pytest.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+22492 INFO: Processing standard module hook 'hook-pygments.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+24541 INFO: Processing standard module hook 'hook-py.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+24924 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+25624 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+27337 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+27748 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+27758 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+27759 INFO: Processing pre-find-module-path hook 'hook-distutils.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+28489 INFO: Processing standard module hook 'hook-distutils.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+28542 INFO: Processing standard module hook 'hook-distutils.util.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+28583 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+28736 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+30260 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+31074 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+50397 INFO: Processing standard module hook 'hook-torch.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+2855 WARNING: Failed to collect submodules for 'torch.utils.tensorboard' because importing 'torch.utils.tensorboard' raised: ModuleNotFoundError: No module named 'tensorboard'
+W1027 13:59:09.198000 30208 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharding_spec` will be deprecated, use `torch.distributed._shard.sharding_spec` instead
+  __import__(name)
+C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharded_tensor` will be deprecated, use `torch.distributed._shard.sharded_tensor` instead
+  __import__(name)
+C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  __import__(name)
+93511 INFO: hook-torch: this torch build does not depend on MKL...
+103508 INFO: Processing standard module hook 'hook-scipy.linalg.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+103667 INFO: Processing standard module hook 'hook-scipy.special._ufuncs.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+104256 INFO: Processing standard module hook 'hook-scipy.special._ellip_harm_2.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+105878 INFO: Processing standard module hook 'hook-scipy.spatial._ckdtree.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+106648 INFO: Processing standard module hook 'hook-scipy.spatial.transform.rotation.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+107446 INFO: Processing standard module hook 'hook-scipy.stats._stats.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+107853 INFO: Processing standard module hook 'hook-scipy.sparse.csgraph.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+115442 INFO: Processing standard module hook 'hook-pandas.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+117291 INFO: Processing standard module hook 'hook-pytz.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+119062 INFO: Processing standard module hook 'hook-numba.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+119085 INFO: Processing standard module hook 'hook-llvmlite.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+123504 INFO: Processing pre-safe-import-module hook 'hook-win32com.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+125880 INFO: Processing standard module hook 'hook-pandas.io.formats.style.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+127767 INFO: Processing standard module hook 'hook-pandas.plotting.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+129049 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+129631 INFO: Processing standard module hook 'hook-pandas.io.clipboard.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+129960 INFO: Processing standard module hook 'hook-fsspec.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+131091 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+148893 INFO: Processing standard module hook 'hook-torchvision.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+148962 INFO: Processing standard module hook 'hook-torchvision.io.image.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+149562 INFO: Processing standard module hook 'hook-onnxruntime.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+151620 INFO: Processing standard module hook 'hook-torchaudio.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+157049 INFO: Processing standard module hook 'hook-scipy.io.matlab.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+157487 INFO: Processing standard module hook 'hook-h5py.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+163925 INFO: Processing module hooks (post-graph stage)...
+171833 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+171833 INFO: Matplotlib backend selection method: automatic discovery of used backends
+171887 INFO: Discovered Matplotlib backend(s) via `matplotlib.use()` call in module 'sympy.testing.runtests': ['Agg', 'Agg']
+171914 INFO: The following Matplotlib backends were discovered by scanning for `matplotlib.use()` calls: ['Agg']. If your backend of choice is not in this list, either add a `matplotlib.use()` call to your code, or configure the backend collection via hook options (see: https://pyinstaller.org/en/stable/hooks-config.html#matplotlib-hooks).
+171914 INFO: Selected matplotlib backends: ['Agg']
+172309 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+174940 WARNING: Hidden import "scipy.special._cdflib" not found!
+174989 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+175107 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+176006 INFO: Performing binary vs. data reclassification (1004 entries)
+176494 INFO: Looking for ctypes DLLs
+177326 WARNING: Ignoring /usr/lib64/libgomp.so.1 imported from C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_inductor\codecache.py - only basenames are supported with ctypes imports!
+177729 INFO: Analyzing run-time hooks ...
+177757 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+177760 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+177762 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+177765 INFO: Including run-time hook 'pyi_rth_pkgres.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+177769 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+177771 INFO: Including run-time hook 'pyi_rth_mplconfig.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+177773 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+177776 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+177786 INFO: Including run-time hook 'pyi_rth_pyqt6.py' from 'C:\\Users\\18321\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+177914 INFO: Creating base_library.zip...
+177935 INFO: Looking for dynamic libraries
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\functorch\__init__.py", line 6 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\functorch\__init__.py", line 6 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\functorch\__init__.py", line 6 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1233 in create_module
+  File "<frozen importlib._bootstrap>", line 573 in module_from_spec
+  File "<frozen importlib._bootstrap>", line 676 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnxruntime\capi\_pybind_state.py", line 32 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnxruntime\__init__.py", line 24 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1233 in create_module
+  File "<frozen importlib._bootstrap>", line 573 in module_from_spec
+  File "<frozen importlib._bootstrap>", line 676 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnxruntime\capi\_pybind_state.py", line 32 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnxruntime\__init__.py", line 24 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 1233 in create_module
+  File "<frozen importlib._bootstrap>", line 573 in module_from_spec
+  File "<frozen importlib._bootstrap>", line 676 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnxruntime\capi\_pybind_state.py", line 32 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnxruntime\__init__.py", line 24 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 257 in _load_dll_libraries
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\__init__.py", line 281 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1128 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Windows fatal exception: access violation
+
+Current thread 0x00005264 (most recent call first):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnx\reference\op_run.py", line 49 in _build_schemas
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnx\reference\op_run.py", line 66 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1234 in _handle_fromlist
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnx\reference\reference_evaluator.py", line 21 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\onnx\reference\__init__.py", line 8 in <module>
+  File "<frozen importlib._bootstrap>", line 241 in _call_with_frames_removed
+  File "<frozen importlib._bootstrap_external>", line 940 in exec_module
+  File "<frozen importlib._bootstrap>", line 690 in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1149 in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1178 in _find_and_load
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 227 in import_library
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 63 in run_next_command
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_child.py", line 100 in <module>
+Traceback (most recent call last):
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 287, in find_binary_dependencies
+    child.call(import_library, package)
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\isolated\_parent.py", line 322, in call
+    raise SubprocessDiedError(
+PyInstaller.isolated._parent.SubprocessDiedError: Child process died calling import_library() with args=('onnx.reference',) and kwargs={}. Its exit code was 3221225477.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\__main__.py", line 321, in <module>
+    run()
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\__main__.py", line 215, in run
+    run_build(pyi_config, spec_file, **vars(args))
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\__main__.py", line 70, in run_build
+    PyInstaller.building.build_main.main(pyi_config, spec_file, **kwargs)
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 1272, in main
+    build(specfile, distpath, workpath, clean_build)
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 1210, in build
+    exec(code, spec_namespace)
+  File "GPose.spec", line 4, in <module>
+    a = Analysis(
+        ^^^^^^^^^
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 584, in __init__
+    self.__postinit__()
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\datastruct.py", line 184, in __postinit__
+    self.assemble()
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 967, in assemble
+    find_binary_dependencies(self.binaries, collected_packages, self.graph._bindepend_symlink_suppression)
+  File "C:\Users\18321\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py", line 291, in find_binary_dependencies
+    raise isolated.SubprocessDiedError(
+PyInstaller.isolated._parent.SubprocessDiedError: Isolated subprocess crashed while importing package 'onnx.reference'! Package import list: ['PyQt6', 'importlib', 'importlib.metadata', 'importlib.resources', 'logging', 'urllib', 'email', '_pyi_rth_utils', 'ctypes', '_distutils_hack', 'setuptools', 'distutils', 'distutils.command', 'html', 'http', 'pyreadline3.console', 'ctypes.macholib', 'pyreadline3.logger', 'pyreadline3.keysyms', 'pyreadline3', 'pyreadline3.modes', 'pyreadline3.lineeditor', 'pyreadline3.clipboard', 'pydoc_data', 'concurrent.futures', 'multiprocessing.dummy', 'xmlrpc', 'xml.parsers', 'xml', 'xml.sax', 'multiprocessing', 'concurrent', 'setuptools._distutils.command', 'unittest', 'asyncio', 'setuptools._distutils', 'setuptools._vendor.tomli', 'setuptools._vendor.pyparsing.diagram', 'jinja2', 'markupsafe', 'json', 'pyparsing', 'pyparsing.diagram', 'setuptools._vendor.pyparsing', 'setuptools._vendor.packaging', 'setuptools._vendor.more_itertools', 'setuptools._vendor.jaraco.text', 'setuptools.extern', 'setuptools._vendor.jaraco', 'setuptools._vendor.importlib_resources', 'setuptools._vendor.importlib_metadata', 'setuptools._vendor', 'pkg_resources', 'packaging.licenses', 'packaging', 'pkg_resources._vendor.pyparsing.diagram', 'pkg_resources._vendor.pyparsing', 'pkg_resources._vendor.packaging', 'pkg_resources._vendor.more_itertools', 'pkg_resources._vendor.jaraco.text', 'pkg_resources._vendor.jaraco', 'pkg_resources._vendor.importlib_resources', 'pkg_resources._vendor', 'pkg_resources.extern', 'setuptools.config._validate_pyproject', 'setuptools.config', 'setuptools.command', 'loguru', 'win32_setctime', 'colorama', 'scipy', 'charset_normalizer', 'numpy.f2py._backends', 'numpy.f2py', 'numpy.testing', 'numpy._utils', 'numpy._core', 'numpy.ma', 'numpy.matrixlib', 'numpy.linalg', 'numpy._typing', 'numpy.lib', 'psutil', 'numpy.testing._private', 'scipy._lib.array_api_compat.numpy', 'scipy._lib.array_api_compat', 'scipy._lib.array_api_compat.torch', 'jax.numpy', 'absl.logging', 'absl', 'absl.flags', 'xml.dom', 'jax._src.ops', 'jax._src.lib.mlir.dialects', 'jax._src.lib.mlir', 'jaxlib', 'jaxlib.mlir._mlir_libs', 'jaxlib.mlir.dialects.gpu', 'jax._src.clusters', 'requests', 'idna', 'urllib3.util', 'zstandard', 'urllib3.http2', 'certifi', 'urllib3.contrib', 'urllib3', 'urllib3.contrib.emscripten', 'jax.experimental.key_reuse', 'jax.experimental', 'jax._src.lax.control_flow', 'jax._src.state', 'matplotlib', 'contourpy', 'dateutil.tz', 'dateutil.zoneinfo', 'dateutil.parser', 'dateutil', 'xml.etree', 'PIL', 'matplotlib.backends', 'kiwisolver', 'cycler', 'matplotlib.style', 'matplotlib.projections', 'mpl_toolkits.mplot3d', 'matplotlib.tri', 'matplotlib.axes', 'matplotlib._api', 'jax._src.nn', 'jax._src.cudnn', 'flatbuffers', 'opt_einsum', 'opt_einsum.backends', 'jax._src.export', 'jax.interpreters', 'jax.lax', 'jax._src.tpu.linalg', 'jax._src.tpu', 'filelock', 'jax._src.interpreters', 'jax._src.numpy', 'jax._src.lib', 'jax._src.lax', 'jax._src', 'jax.nn', 'ml_dtypes', 'scipy._lib.array_api_compat.dask.array', 'scipy._lib.array_api_compat.dask', 'numpy.typing', 'jax', 'jax.lib', 'jax.experimental.compilation_cache', 'jax.scipy', 'jax._src.scipy', 'jax.scipy.cluster', 'jax._src.scipy.cluster', 'jax.scipy.stats', 'jax._src.scipy.stats', 'jax._src.third_party.scipy', 'jax._src.third_party', 'jax.scipy.sparse', 'jax._src.scipy.sparse', 'jax.scipy.interpolate', 'jax.ops', 'jax.image', 'jax._src.image', 'jax._src.debugger', 'pygments', 'pygments.styles', 'pygments.lexers', 'pygments.formatters', 'pygments.filters', 'torch', 'torch.utils.viz', 'torch.utils.serialization', 'torch.utils.model_dump', 'torch.utils.jit', 'torch.utils.hipify', 'scipy.io', 'scipy.io.arff', 'scipy.io._harwell_boeing', 'scipy.sparse', 'numpy.random', 'scipy._lib.array_api_extra', 'scipy._lib.array_api_extra._lib', 'scipy._lib.array_api_extra._lib._utils', 'pytest', 'pluggy', 'tomllib', 'iniconfig', '_pytest._py', '_pytest._io', '_pytest.mark', '_pytest.config', '_pytest.assertion', '_pytest._code', '_pytest', 'scipy.sparse.linalg', 'scipy.linalg', 'scipy.special', 'scipy.optimize', 'scipy.optimize._highspy', 'scipy.sparse.csgraph', 'scipy.optimize._shgo_lib', 'scipy.spatial', 'scipy.spatial.transform', 'scipy.constants', 'scipy.interpolate', 'scipy.optimize._lsq', 'scipy._lib.pyprima.common', 'scipy._lib.pyprima', 'scipy._lib.pyprima.cobyla', 'scipy._lib.cobyqa', 'scipy._lib.cobyqa.utils', 'scipy._lib.cobyqa.subsolvers', 'scipy.optimize._trustregion_constr', 'scipy.optimize._trlib', 'scipy.fft', 'scipy.fft._pocketfft', 'scipy._lib._uarray', 'scipy.sparse.linalg._eigen', 'scipy.sparse.linalg._eigen.lobpcg', 'scipy.sparse.linalg._eigen.arpack', 'scipy.sparse.linalg._dsolve', 'scipy.sparse.linalg._isolve', 'scipy.io._fast_matrix_market', 'scipy.io.matlab', 'torchaudio', 'torchaudio.lib', 'torchaudio.utils', 'torchaudio._internal', 'torchaudio.transforms', 'torchaudio.pipelines', 'torchaudio.pipelines._wav2vec2', 'torchaudio.pipelines._tts', 'torchaudio.models', 'torchaudio.models.wav2vec2', 'torchaudio.models.wav2vec2.utils', 'torchaudio.models.squim', 'torchaudio.functional', 'torchaudio.datasets', 'torchaudio.compliance', 'torchaudio._extension', 'torchvision.io', 'torchvision.transforms.v2.functional', 'torchvision.tv_tensors', 'torchvision.transforms.v2', 'torchvision.ops', 'torchvision.transforms', 'torchvision', 'torchvision.models', 'torchvision.models.video', 'torchvision.models.segmentation', 'torchvision.models.quantization', 'torchvision.models.optical_flow', 'torchvision.models.detection', 'torchvision.datasets', 'h5py', 'h5py.tests', 'h5py._hl', 'torch.utils.data.datapipes.utils', 'torch.utils.data.datapipes.map', 'torch.utils.data.datapipes.iter', 'torchgen', 'torchgen.selective_build', 'torchgen.aoti', 'torchgen.dest', 'yaml', 'torchgen.api.types', 'torchgen.api', 'pandas', 'pandas.core.dtypes', 'pandas.core', 'pandas.core.ops', 'pandas.util.version', 'pandas.util', 'pandas.core.util', 'pandas.core.computation', 'pandas.core.strings', 'pandas.core.groupby', 'pandas.core._numba.kernels', 'numba', 'llvmlite.binding', 'llvmlite.ir', 'llvmlite', 'numba.tests', 'numba.misc', 'numba.core.typeconv', 'numba.core.annotations', 'cffi', 'pycparser', 'pycparser.ply', 'numba.core.unsafe', 'numba.core.datamodel', 'numba.stencils', 'numba.np.unsafe', 'numba.parfors', 'numba.core.rewrites', 'numba.cpython.unsafe', 'numba.np.random', 'numba.cpython', 'numba.pycc', 'numba.np', 'numba.np.math', 'numba.core.runtime', 'numba.experimental.jitclass', 'numpy.polynomial', 'numba.np.polynomial', 'numba.core.typing', 'numba.testing', 'numba.cuda.kernels', 'numba.cuda.cudadrv', 'numba.typed', 'numba.experimental', 'numba.np.ufunc', 'numba.core.types', 'numba.cuda', 'numba.cuda.simulator', 'numba.cuda.simulator.cudadrv', 'numba.types', 'numba.cext', 'numba.cloudpickle', 'numba.core', 'pandas.core.window', 'pandas.core.tools', 'pandas.core.arrays.arrow', 'pandas.core._numba', 'pandas.core.indexers', 'pandas.core.array_algos', 'pandas.compat.numpy', 'pandas.api.extensions', 'pandas.core.reshape', 'pandas.core.indexes', 'pandas.io.formats', 'pandas.io.excel', 'pandas.io.parsers', 'pandas.api.types', 'pytz', 'pandas.core.arrays', 'pandas.core.arrays.sparse', 'pandas.core.methods', 'pandas.core.internals', 'pandas.io.clipboard', 'sqlite3', 'pandas.io.json', 'fsspec', 'fsspec.implementations', 'tqdm', 'pandas.core.interchange', 'pandas._libs.window', 'pandas._libs.tslibs', 'pandas.io.sas', 'pandas._libs', 'pandas._testing', 'pandas.plotting', 'pandas.plotting._matplotlib', 'pandas.io', 'pandas.errors', 'pandas.arrays', 'pandas.api', 'pandas.api.typing', 'pandas.api.interchange', 'pandas.api.indexers', 'pandas.tseries', 'pandas._config', 'pandas.compat', 'torch.utils.data.datapipes.dataframe', 'torch.utils.data.datapipes', 'torch.utils.data._utils', 'torch.utils.data', 'torch.utils.bottleneck', 'torch.utils.benchmark.utils.valgrind_wrapper', 'torch.utils.benchmark.utils', 'torch.utils.benchmark.op_fuzzers', 'torch.utils.benchmark.examples', 'torch.utils.benchmark', 'torch.utils.backcompat', 'sympy.solvers', 'sympy.multipledispatch', 'sympy.matrices.expressions', 'sympy.functions.special', 'mpmath.libmp', 'mpmath', 'mpmath.tests', 'mpmath.matrices', 'mpmath.calculus', 'mpmath.functions', 'sympy.external', 'sympy.categories', 'sympy.sets', 'sympy.sets.handlers', 'sympy.physics.control', 'sympy.utilities', 'sympy.polys.agca', 'sympy.polys.matrices', 'sympy.polys.numberfields', 'sympy.codegen', 'sympy.tensor.array.expressions', 'sympy.tensor', 'sympy.parsing', 'sympy.strategies.branch', 'sympy.strategies', 'sympy.polys.domains', 'sympy.plotting', 'sympy.plotting.pygletplot', 'sympy.plotting.backends.textbackend', 'sympy.plotting.backends', 'sympy.plotting.backends.matplotlibbackend', 'sympy.plotting.intervalmath', 'sympy.concrete', 'sympy.physics', 'sympy.physics.units', 'sympy.physics.units.systems', 'sympy.physics.units.definitions', 'sympy.functions.combinatorial', 'sympy.vector', 'sympy.tensor.array', 'sympy.printing', 'sympy.utilities.mathml', 'sympy.assumptions.relation', 'sympy.printing.pretty', 'sympy.ntheory', 'sympy.combinatorics', 'sympy.discrete', 'sympy.testing', 'sympy.interactive', 'sympy.solvers.ode', 'sympy.solvers.diophantine', 'sympy.series', 'sympy.calculus', 'sympy.simplify', 'sympy.geometry', 'sympy.polys', 'sympy.matrices', 'sympy.functions', 'sympy.integrals', 'sympy.functions.elementary', 'sympy.core', 'sympy.logic.algorithms', 'sympy.assumptions.predicates', 'sympy.assumptions.handlers', 'sympy.assumptions', 'sympy.logic', 'torch.utils._sympy', 'torch.utils._strobelight', 'torch.testing._internal.test_module', 'functorch.compile', 'functorch', 'torch.testing._internal.optests', 'torch.testing._internal.opinfo', 'torch.testing._internal.opinfo.definitions', 'functorch.experimental', 'torch.testing._internal.generated', 'torch.testing._internal.distributed.rpc.jit', 'torch.testing._internal.distributed.rpc.examples', 'torch.testing._internal.distributed.rpc', 'torch.testing._internal.distributed.nn.api', 'torch.testing._internal.distributed.nn', 'torch.testing._internal.distributed._tensor', 'torch.testing._internal.distributed._shard', 'torch.testing._internal.distributed', 'torch.testing._internal.data', 'torch.testing._internal.codegen', 'torch.testing._internal', 'torch.quantization.fx', 'torch.package.analyze', 'torch.package', 'torch.optim._multi_tensor', 'torch.onnx.ops', 'onnxruntime', 'onnxruntime.transformers', 'onnxruntime.capi', 'google.protobuf.internal', 'google.protobuf.pyext', 'google.protobuf', 'onnx.defs', 'onnx', 'torch.onnx._internal.torchscript_exporter', 'torch.onnx._internal.fx.passes', 'torch.onnx._internal.fx', 'torch.onnx._internal.exporter._torchlib.ops', 'torch.onnx._internal.exporter._torchlib', 'onnx.reference', 'onnx.reference.ops.aionnxml', 'onnx.reference.ops.experimental', 'onnx.reference.ops.aionnx_preview_training', 'onnx.reference.ops', 'onnx.reference.ops_optimized', 'torch.onnx._internal.exporter', 'torch.onnx._internal', 'torch.numa', 'torch.nn.utils._expanded_weights', 'torch.nn.utils', 'torch.nn.quantized.modules', 'torch.nn.quantized.dynamic.modules', 'torch.nn.quantized.dynamic', 'torch.nn.quantized._reference.modules', 'torch.nn.quantized._reference', 'torch.nn.quantizable.modules', 'torch.nn.qat.modules', 'torch.nn.qat.dynamic.modules', 'torch.nn.qat.dynamic', 'torch.nn.parallel', 'torch.nn.modules', 'torch.nn.intrinsic.quantized.modules', 'torch.nn.intrinsic.quantized.dynamic.modules', 'torch.nn.intrinsic.quantized.dynamic', 'torch.nn.intrinsic.quantized', 'torch.nn.intrinsic.qat.modules', 'torch.nn.intrinsic.qat', 'torch.nn.intrinsic.modules', 'torch.nn.backends', 'torch.nn.attention.experimental', 'torch.nn.attention', 'torch.nested._internal', 'torch.monitor', 'torch.utils.tensorboard', 'torch.masked.maskedtensor', 'torch.jit.mobile', 'torch.jit._passes', 'torch.fx.passes.utils', 'torch.fx.passes.tests', 'torch.fx.passes.infra', 'torch.fx.passes.dialect.common', 'torch.fx.passes.dialect', 'torch.fx.passes.backends', 'torch.fx.passes', 'torch.fx.experimental.unification.multipledispatch', 'torch.fx.experimental.unification', 'torch.fx.experimental.migrate_gradual_types', 'torch.fx.experimental', 'torch.export.pt2_archive', 'torch.export.passes', 'torch.export.experimental', 'torch.distributed.tensor.parallel', 'torch.distributed.tensor.experimental', 'torch.distributed.tensor.debug', 'torch.distributed.tensor._ops', 'torch.distributed.tensor', 'torch.distributed.rpc._testing', 'torch.distributed.rpc', 'torch.distributed.pipelining', 'torch.distributed.optim', 'torch.distributed.nn.jit.templates', 'torch.distributed.nn.jit', 'torch.distributed.nn.api', 'torch.distributed.nn', 'torch.distributed.launcher', 'torch.distributed.fsdp._fully_shard', 'torch.distributed.fsdp', 'torch.distributed.elastic.utils.data', 'torch.distributed.elastic.utils', 'torch.distributed.elastic.timer', 'torch.distributed.elastic.rendezvous', 'torch.distributed.elastic.multiprocessing.subprocess_handler', 'torch.distributed.elastic.multiprocessing.errors', 'torch.distributed.elastic.multiprocessing', 'torch.distributed.elastic.metrics', 'torch.distributed.elastic.events', 'torch.distributed.elastic.agent.server', 'torch.distributed.elastic.agent', 'torch.distributed.elastic', 'torch.distributed.checkpoint._experimental', 'torch.distributed.checkpoint', 'torch.distributed.autograd', 'torch.distributed.algorithms.model_averaging', 'torch.distributed.algorithms.ddp_comm_hooks', 'torch.distributed.algorithms._quantization', 'torch.distributed.algorithms._optimizer_overlap', 'torch.distributed.algorithms._comm_hooks', 'torch.distributed.algorithms._checkpoint', 'torch.distributed.algorithms', 'torch.distributed._tools', 'torch.distributed._tensor', 'torch.distributed._symmetric_memory', 'torch.distributed._sharding_spec', 'torch.distributed._sharded_tensor', 'torch.distributed._shard.sharding_spec.chunk_sharding_spec_ops', 'torch.distributed._shard.sharding_spec', 'torch.distributed._shard.sharding_plan', 'torch.distributed._shard.sharded_tensor._ops', 'torch.distributed._shard.sharded_tensor', 'torch.distributed._shard.sharded_optim', 'torch.distributed._shard.checkpoint', 'torch.distributed._shard', 'torch.distributed._composable.fsdp', 'torch.distributed._composable', 'torch.cuda.amp', 'torch.cpu.amp', 'torch.contrib', 'torch.backends.xnnpack', 'torch.backends.xeon', 'torch.backends.quantized', 'torch.backends.opt_einsum', 'torch.backends.openmp', 'torch.backends.nnpack', 'torch.backends.mps', 'torch.backends.mkldnn', 'torch.backends.mkl', 'torch.backends.miopen', 'torch.backends.mha', 'torch.backends.kleidiai', 'torch.backends.cusparselt', 'torch.backends.cudnn', 'torch.backends.cuda', 'torch.backends.cpu', 'torch.backends._nnapi', 'torch.backends._coreml', 'torch.autograd._functions', 'torch.ao.quantization.quantizer', 'torch.ao.quantization.pt2e.representation', 'torch.ao.quantization.pt2e', 'torch.ao.quantization.fx._model_report', 'torch.ao.quantization.fx', 'torch.ao.quantization.backend_config', 'torch.ao.quantization', 'torch.ao.pruning.sparsifier', 'torch.ao.pruning.scheduler', 'torch.ao.pruning._experimental.pruner', 'torch.ao.pruning._experimental.data_sparsifier.lightning.callbacks', 'torch.ao.pruning._experimental.data_sparsifier.lightning', 'torch.ao.pruning._experimental.data_sparsifier', 'torch.ao.pruning._experimental.data_scheduler', 'torch.ao.pruning._experimental.activation_sparsifier', 'torch.ao.pruning._experimental', 'torch.ao.pruning', 'torch.ao.ns.fx', 'torch.ao.ns', 'torch.ao.nn.sparse.quantized.dynamic', 'torch.ao.nn.sparse.quantized', 'torch.ao.nn.sparse', 'torch.ao.nn.quantized.reference.modules', 'torch.ao.nn.quantized.reference', 'torch.ao.nn.quantized.modules', 'torch.ao.nn.quantized.dynamic.modules', 'torch.ao.nn.quantized.dynamic', 'torch.ao.nn.quantized', 'torch.ao.nn.quantizable.modules', 'torch.ao.nn.quantizable', 'torch.ao.nn.qat.modules', 'torch.ao.nn.qat.dynamic.modules', 'torch.ao.nn.qat.dynamic', 'torch.ao.nn.qat', 'torch.ao.nn.intrinsic.quantized.modules', 'torch.ao.nn.intrinsic.quantized.dynamic.modules', 'torch.ao.nn.intrinsic.quantized.dynamic', 'torch.ao.nn.intrinsic.quantized', 'torch.ao.nn.intrinsic.qat.modules', 'torch.ao.nn.intrinsic.qat', 'torch.ao.nn.intrinsic.modules', 'torch.ao.nn.intrinsic', 'torch.ao.nn', 'torch._vendor.packaging', 'torch._vendor', 'torch._strobelight', 'torch._refs.special', 'torch._refs.nn.functional', 'torch._refs.nn', 'torch._refs.linalg', 'torch._refs', 'torch._prims_common', 'torch._prims', 'torch._numpy.testing', 'torch._numpy', 'torch._lazy', 'torch._inductor.template_heuristics', 'torch._inductor.runtime', 'torch._inductor.package', 'torch._inductor.kernel.flex', 'torch._inductor.kernel', 'torch._inductor.fx_passes.serialized_patterns', 'torch._inductor.fx_passes', 'torch._inductor.compile_worker', 'torch._inductor.codegen.xpu', 'torch._inductor.codegen.rocm', 'torch._inductor.codegen.mtia', 'torch._inductor.codegen.cutedsl', 'torch._inductor.codegen.cuda.cutlass_lib_extensions.cutlass_mock_imports.scipy', 'torch._inductor.codegen.cuda.cutlass_lib_extensions.cutlass_mock_imports.pydot', 'torch._inductor.codegen.cuda.cutlass_lib_extensions.cutlass_mock_imports.cuda', 'torch._inductor.codegen.cuda.cutlass_lib_extensions.cutlass_mock_imports', 'torch._inductor.codegen.cuda.cutlass_lib_extensions', 'torch._inductor.codegen.cuda', 'torch._inductor.codegen', 'torch._inductor.autoheuristic.artifacts', 'torch._inductor.autoheuristic', 'torch._inductor.analysis', 'networkx', 'networkx.drawing', 'networkx.linalg', 'networkx.algorithms', 'networkx.algorithms.tree', 'networkx.algorithms.isomorphism', 'networkx.algorithms.flow', 'networkx.algorithms.community', 'networkx.algorithms.connectivity', 'networkx.algorithms.bipartite', 'networkx.algorithms.approximation', 'networkx.algorithms.traversal', 'networkx.algorithms.shortest_paths', 'networkx.algorithms.operators', 'networkx.algorithms.minors', 'networkx.algorithms.link_analysis', 'networkx.algorithms.coloring', 'networkx.algorithms.components', 'networkx.algorithms.centrality', 'networkx.algorithms.assortativity', 'networkx.readwrite', 'networkx.readwrite.json_graph', 'networkx.generators', 'networkx.classes', 'networkx.utils', 'torch._functorch._aot_autograd', 'torch._functorch._activation_checkpointing', 'torch._functorch', 'torch._export.serde', 'torch._export.passes', 'torch._export.pass_infra', 'torch._export.db.examples', 'torch._export.db', 'torch._export', 'torch._dynamo.variables', 'torch._dynamo.repro', 'torch._dynamo.polyfills', 'torch._dynamo.backends', 'torch._dispatch', 'torch._decomp', 'torch._custom_op', 'torch._logging', 'torch.onnx', 'torch._subclasses', 'torch._dynamo', 'torch.compiler', 'torch.fx', 'torch._higher_order_ops', 'torch.func', 'torch.export', 'torch._inductor', 'torch.masked', 'torch.quantization', 'torch._library', 'torch.nn.quantized', 'torch.nn.quantizable', 'torch.nn.qat', 'torch.nn.intrinsic', 'torch.ao', 'torch.signal.windows', 'torch.signal', 'torch.xpu', 'torch.utils', 'torch.testing', 'torch.special', 'torch.sparse', 'torch.profiler', 'torch.optim', 'torch.nn', 'torch.nested', 'torch.multiprocessing', 'torch.mtia', 'torch.mps', 'torch.linalg', 'torch.jit', 'torch.futures', 'torch.fft', 'torch.distributions', 'torch.distributed', 'torch.cuda', 'torch.cpu', 'torch.backends', 'torch.accelerator', 'torch._awaits', 'torch.autograd', 'torch.amp', 'sympy', 'sympy.algebras', 'scipy._lib.array_api_compat.cupy', 'numpy.core', 'scipy._lib.array_api_compat.common', 'numpy.fft', 'scipy.signal', 'scipy.ndimage', 'scipy.signal.windows', 'scipy.integrate', 'scipy.integrate._rules', 'scipy.integrate._ivp', 'scipy.stats', 'scipy.stats._rcont', 'scipy.stats._levy_stable', 'scipy._lib', 'numpy', 'numpy.strings', 'numpy.char', 'numpy.rec', 'mediapipe', 'mediapipe.tasks.python', 'mediapipe.tasks.python.vision', 'mediapipe.framework', 'mediapipe.calculators.core', 'mediapipe.calculators', 'mediapipe.gpu', 'mediapipe.tasks.cc.core.proto', 'mediapipe.tasks.cc.core', 'mediapipe.tasks.cc', 'mediapipe.calculators.tensor', 'mediapipe.util', 'mediapipe.tasks.python.components.containers', 'mediapipe.tasks.cc.components.containers.proto', 'mediapipe.tasks.cc.components.containers', 'mediapipe.tasks.cc.components', 'mediapipe.framework.formats.annotation', 'mediapipe.tasks.cc.vision.pose_detector.proto', 'mediapipe.tasks.cc.vision.pose_detector', 'mediapipe.tasks.cc.vision', 'mediapipe.tasks.cc.vision.pose_landmarker.proto', 'mediapipe.tasks.cc.vision.pose_landmarker', 'mediapipe.framework.formats', 'mediapipe.tasks.cc.vision.object_detector.proto', 'mediapipe.tasks.cc.vision.object_detector', 'mediapipe.tasks.cc.vision.image_segmenter.proto', 'mediapipe.tasks.cc.vision.image_segmenter', 'mediapipe.tasks.cc.vision.image_segmenter.calculators', 'mediapipe.tasks.python.components.utils', 'mediapipe.tasks.cc.vision.image_embedder.proto', 'mediapipe.tasks.cc.vision.image_embedder', 'mediapipe.tasks.cc.components.processors.proto', 'mediapipe.tasks.cc.components.processors', 'mediapipe.tasks.cc.vision.image_classifier.proto', 'mediapipe.tasks.cc.vision.image_classifier', 'mediapipe.tasks.cc.vision.hand_landmarker.proto', 'mediapipe.tasks.cc.vision.hand_detector.proto', 'mediapipe.tasks.cc.vision.hand_detector', 'mediapipe.tasks.cc.vision.hand_landmarker', 'mediapipe.tasks.cc.vision.face_landmarker.proto', 'mediapipe.tasks.cc.vision.face_geometry.calculators', 'mediapipe.tasks.cc.vision.face_geometry', 'mediapipe.tasks.cc.vision.face_geometry.proto', 'mediapipe.tasks.cc.vision.face_landmarker', 'mediapipe.tasks.cc.vision.face_detector.proto', 'mediapipe.tasks.cc.vision.face_detector', 'mediapipe.tasks.cc.vision.holistic_landmarker.proto', 'mediapipe.tasks.cc.vision.holistic_landmarker', 'mediapipe.tasks.python.components.processors', 'mediapipe.tasks.cc.vision.gesture_recognizer.proto', 'mediapipe.tasks.cc.vision.gesture_recognizer', 'mediapipe.tasks.cc.vision.face_stylizer.proto', 'mediapipe.tasks.cc.vision.face_stylizer', 'mediapipe.tasks.python.vision.core', 'mediapipe.tasks.python.text', 'mediapipe.tasks.python.text.core', 'mediapipe.tasks.cc.text.text_embedder.proto', 'mediapipe.tasks.cc.text.text_embedder', 'mediapipe.tasks.cc.text', 'mediapipe.tasks.cc.text.text_classifier.proto', 'mediapipe.tasks.cc.text.text_classifier', 'mediapipe.tasks.python.genai', 'mediapipe.tasks.python.core', 'mediapipe.tasks.python.components', 'mediapipe.tasks.python.audio', '_sounddevice_data', 'mediapipe.tasks.cc.audio.audio_embedder.proto', 'mediapipe.tasks.cc.audio.audio_embedder', 'mediapipe.tasks.cc.audio', 'mediapipe.tasks.cc.audio.audio_classifier.proto', 'mediapipe.tasks.cc.audio.audio_classifier', 'mediapipe.tasks.python.audio.core', 'mediapipe.tasks', 'mediapipe.python.solutions', 'mediapipe.modules.objectron.calculators', 'mediapipe.modules.objectron', 'mediapipe.modules', 'mediapipe.calculators.image', 'mediapipe.framework.tool', 'mediapipe.calculators.util', 'mediapipe.framework.formats.object_detection', 'mediapipe.calculators.tflite', 'attr', 'mediapipe.modules.holistic_landmark.calculators', 'mediapipe.modules.holistic_landmark', 'mediapipe.modules.face_detection', 'mediapipe.python', 'cv2', 'cv2.utils', 'cv2.typing', 'cv2.misc', 'cv2.mat_wrapper', 'cv2.gapi', 'cv2.data', 'encodings', 'collections', 're', 'gui', 'core.fusion', 'core', 'core.pose', 'core.csi', 'core.cache', 'analysis', 'core.io', 'utils']
+
+2025-10-27 14:11:34,942 - ERROR - 步骤失败: 构建EXE
